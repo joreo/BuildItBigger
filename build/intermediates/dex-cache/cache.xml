@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\ud867-master\FinalProject\app\build\intermediates\exploded-aar\FinalProject\mylibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="149ec1d1221c1cee19384d0e56cffe4c422e764c">
+        <dex dex="F:\ud867-master\FinalProject\app\build\intermediates\pre-dexed\debug\classes-18f1eb6ca07503c261a0aff3fba39d87bd740126.jar" />
+    </item>
+
+</items>
