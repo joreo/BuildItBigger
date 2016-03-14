@@ -9,9 +9,9 @@ public class JokeDepot {
 
     public JokeDepot() {
         jokes = new String[3];
-        jokes[0] = "new derp 1";
+        jokes[0] = "new derf 1";
         jokes[1] = "new derp 2";
-        jokes[2] = "new derp 3";
+        jokes[2] = "new derg 3";
         selection = new Random();
     }
 
