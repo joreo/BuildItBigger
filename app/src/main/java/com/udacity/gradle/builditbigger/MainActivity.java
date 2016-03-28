@@ -7,7 +7,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.JokeDepot;
+import com.joreo.JokeDepot;
 import com.udanano.mylibrary.JokeAcceptor;
 
 

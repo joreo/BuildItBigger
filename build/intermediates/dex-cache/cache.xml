@@ -2,11 +2,26 @@
 <items version="2" >
 
     <item
-        jar="F:\ud867-master\FinalProject\app\build\intermediates\exploded-aar\FinalProject\mylibrary\unspecified\jars\classes.jar"
-        jumboMode="false"
+        jar="F:\udacity\BuildItBigger\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_sliceb.jar"
+        jumboMode="true"
         revision="22.0.1"
-        sha1="149ec1d1221c1cee19384d0e56cffe4c422e764c">
-        <dex dex="F:\ud867-master\FinalProject\app\build\intermediates\pre-dexed\debug\classes-18f1eb6ca07503c261a0aff3fba39d87bd740126.jar" />
+        sha1="7927b965dbdcc05b23f04d1fa348eaf990dcb4d6">
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\debug\folders\1000\5\main_sliceb_a14420baa0048d544612dae0e6d9c6d4df59a979\classes.dex" />
+    </item>
+    <item
+        jar="F:\udacity\BuildItBigger\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\5\main_slice.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="85cf7febddc4b27b68af21efc9bff9b947a670f2">
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\debug\folders\1000\5\main_slice_71762245622a340fc5ecb5954d00926a7a8f315a\classes.dex" />
+    </item>
+    <item
+        jar="F:\udacity\BuildItBigger\app\build\intermediates\transforms\instantRunSlicer\debug\jars\1\1a\dependencies.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="16c8c200c7d4cd6f5615c5be6e9252be3e16a640">
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_04413a7cdf439ab2cd671aed4171719bb5434a6c\classes.dex" />
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\debug\folders\1000\1a\dependencies_04413a7cdf439ab2cd671aed4171719bb5434a6c\classes2.dex" />
     </item>
 
 </items>
