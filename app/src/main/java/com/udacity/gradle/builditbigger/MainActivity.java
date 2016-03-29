@@ -1,11 +1,13 @@
 package com.udacity.gradle.builditbigger;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Toast;
 
 import com.joreo.JokeDepot;
 import com.udanano.mylibrary.JokeAcceptor;
@@ -43,17 +45,34 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void tellJoke(View view){
+
+        //If I'm understanding correctly:
+        //1st we were to just display a joke in a toast
+        //2nd we were to get the joke from the java lib and send it to the JokeAcceptor as an extra
+        //3rd now that we have GCE running, we get the joke from the GCE which is getting it from
+        // the java lib. What it returns is then launched into the JokeAcceptor
         String joke = new JokeDepot().getJoke();
-//        Toast.makeText(this,
-//                joke, //the joke, which used to be 'derp'
-//                Toast.LENGTH_SHORT).show();
-        //I think step 3 means us to do away with this toast and use the other toast
 
-        //step 3 says to add an intent
-        Intent myIntent = new Intent(this, JokeAcceptor.class);
+        //AsyncTask  getting my joke
+
+        new JokeAsync() {
+            @Override
+            protected void onPostExecute(String s) {
+                if (s != null) {
+                    startActivity(launchJoke(MainActivity.this, s));
+                } else {
+                    Toast.makeText(MainActivity.this, "No Joke Available", Toast.LENGTH_LONG).show();
+                }
+
+            }
+        }.execute();
+
+
+  }
+    public static Intent launchJoke(Context context, String joke){
+        Intent myIntent = new Intent(context, JokeAcceptor.class);
         myIntent.putExtra("joke", joke);
-        startActivity(myIntent);
+        return(myIntent);
     }
-
 
 }

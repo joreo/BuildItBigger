@@ -4,12 +4,20 @@ android {
     compileSdkVersion 23
     buildToolsVersion "22.0.1"
 
+//    packagingOptions {
+//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/sep_approx_spanish.txt'
+//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/gen_approx_greek.txt'
+//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/gen_exact_polish.txt'
+//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt'
+//    }
+
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
         minSdkVersion 17
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -17,14 +25,24 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors {
+        free {
+            applicationId "com.udacity.gradle.builditbigger.free"
+        }
+        paid {
+            applicationId "com.udacity.gradle.builditbigger.paid"
+        }
+    }
+
 }
+
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     // Added for AdMob
     compile project(':jokes')
     compile project(':mylibrary')
-    compile project(':backend')
+    //compile project(':backend')
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.google.android.gms:play-services:8.4.0'
     compile project(path: ':backend', configuration: 'android-endpoints')

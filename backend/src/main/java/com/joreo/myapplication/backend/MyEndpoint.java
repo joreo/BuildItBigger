@@ -6,7 +6,7 @@
 
 package com.joreo.myapplication.backend;
 
-import com.joreo.
+import com.joreo.JokeDepot;
 
 import com.google.api.server.spi.config.Api;
 import com.google.api.server.spi.config.ApiMethod;
@@ -19,8 +19,8 @@ import javax.inject.Named;
   name = "myApi",
   version = "v1",
   namespace = @ApiNamespace(
-    ownerDomain = "backend.myapplication.example.com",
-    ownerName = "backend.myapplication.example.com",
+    ownerDomain = "backend.myapplication.joreo.com",
+    ownerName = "backend.myapplication.joreo.com",
     packagePath=""
   )
 )
@@ -38,9 +38,9 @@ public class MyEndpoint {
     @ApiMethod(name = "getJoke")
     public MyBean getJoke() {
 
-        //Simulate processing. 5 seconds
+        //Simulate processing. Fake your way, to a delay
         try {
-            Thread.sleep(5 * 1000);
+            Thread.sleep(1 * 1000);
         } catch (Exception e) {
             e.printStackTrace();
         }
