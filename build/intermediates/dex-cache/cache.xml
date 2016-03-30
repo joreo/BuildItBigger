@@ -2,53 +2,26 @@
 <items version="2" >
 
     <item
-        jar="F:\udacity\BuildItBigger\mylibrary\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\com.android.support-appcompat-v7-23.2.1_6ff0e677714412cc6032cb2a4ad1789feeb048cd.jar" />
+        jar="F:\udacity\BuildItBigger\app\build\intermediates\transforms\instantRunSlicer\free\debug\jars\1\1a\dependencies.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="a019df3d679f13643b1c0d5d9e843253390d7a5b">
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\free\debug\folders\1000\1a\dependencies_71d22e213be732bed34ab9d04184d9c33960a6cc\classes.dex" />
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\free\debug\folders\1000\1a\dependencies_71d22e213be732bed34ab9d04184d9c33960a6cc\classes2.dex" />
     </item>
     <item
-        jar="F:\udacity\BuildItBigger\mylibrary\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\com.android.support-animated-vector-drawable-23.2.1_a8d46d7dea618c204e2316f412c4b5a295d5dc4b.jar" />
+        jar="F:\udacity\BuildItBigger\app\build\intermediates\transforms\instantRunSlicer\free\debug\jars\1\5\main_sliceb.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="f25478b4077fd1a385de87b17cc841377a659daf">
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\free\debug\folders\1000\5\main_sliceb_b5c26886e4c8f56338c3effaca157161b7b92fa9\classes.dex" />
     </item>
     <item
-        jar="F:\udacity\BuildItBigger\mylibrary\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\internal_impl-23.2.1_85130c2b9db0c06d015d492fa8ac63b72e1c90db.jar" />
-    </item>
-    <item
-        jar="F:\Users\Rawk\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\support-annotations-23.2.1_e6ae97e2baa5e610077f4a316676464cd8fb65f2.jar" />
-    </item>
-    <item
-        jar="F:\udacity\BuildItBigger\mylibrary\build\intermediates\bundles\debug\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="98fb08a35638e07feff754c37969493166c657c5">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\classes_9e35f1e7c5cfc1bc79383ea5f047cbed78ec8476.jar" />
-    </item>
-    <item
-        jar="F:\udacity\BuildItBigger\mylibrary\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\com.android.support-support-v4-23.2.1_27f0335663bd095780fa3adad49671fba181c1ba.jar" />
-    </item>
-    <item
-        jar="F:\udacity\BuildItBigger\mylibrary\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="F:\udacity\BuildItBigger\mylibrary\build\intermediates\pre-dexed\androidTest\debug\com.android.support-support-vector-drawable-23.2.1_b97c6f74785c82283114fa5bbf8417a236dda00a.jar" />
+        jar="F:\udacity\BuildItBigger\app\build\intermediates\transforms\instantRunSlicer\free\debug\jars\1\5\main_slice.jar"
+        jumboMode="true"
+        revision="22.0.1"
+        sha1="d216ee9a7177872d6be2714a4e6a1fcc37305497">
+        <dex dex="F:\udacity\BuildItBigger\app\build\intermediates\transforms\dex\free\debug\folders\1000\5\main_slice_d59fda81804e1cd5eb961b06bd1e7cb302b79ff0\classes.dex" />
     </item>
 
 </items>

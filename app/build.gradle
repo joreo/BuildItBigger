@@ -4,12 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "22.0.1"
 
-//    packagingOptions {
-//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/sep_approx_spanish.txt'
-//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/gen_approx_greek.txt'
-//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/gen_exact_polish.txt'
-//        pickFirst 'com/google/appengine/repackaged/org/apache/commons/codec/language/bm/gen_approx_cyrillic.txt'
-//    }
+
 
     defaultConfig {
         applicationId "com.udacity.gradle.builditbigger"
